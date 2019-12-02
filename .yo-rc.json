@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "net.sasconsul.s2f"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "backendFlags",
+    "packageName": "net.sasconsul.s2f",
+    "packageFolder": "net/sasconsul/s2f",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjY2OGZkMmZiNzlhNDg4NDgwNjU2OTg0MGQ2NzM3NDY4ZTZmZTc2NmQ1ZWFjYWMzMzE1NWIyZmE2NjFhODlhMTExMTcwZTZlNTc3YWJmYzYyYTk2YzhhZDMwMmQ4NzBlZTUwZGQ3MTE2NjAwOWZjZmI4YTc4NzE0YmEyNGYzYjc=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true
+  }
+}
