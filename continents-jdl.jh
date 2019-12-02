@@ -1,0 +1,14 @@
+entity Continent {
+	continent String
+}
+
+entity Country {
+	name String
+    flag String
+}
+
+relationship OneToMany {
+    Continent{country} to Country
+}
+
+

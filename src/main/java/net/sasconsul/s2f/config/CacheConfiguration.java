@@ -42,6 +42,9 @@ public class CacheConfiguration {
             createCache(cm, net.sasconsul.s2f.domain.User.class.getName());
             createCache(cm, net.sasconsul.s2f.domain.Authority.class.getName());
             createCache(cm, net.sasconsul.s2f.domain.User.class.getName() + ".authorities");
+            createCache(cm, net.sasconsul.s2f.domain.Continent.class.getName());
+            createCache(cm, net.sasconsul.s2f.domain.Continent.class.getName() + ".countries");
+            createCache(cm, net.sasconsul.s2f.domain.Country.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
